@@ -1,0 +1,166 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5056918600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should navigate to Home page successfully",
+        "description": "",
+        "id": "home-pagetest;user-should-navigate-to-home-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 791854500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 153819400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageStep.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 134233700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Accept cookies",
+            "match": {
+              "location": "HomePageStep.iClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i should navigate to Home page successfully",
+            "match": {
+              "location": "HomePageStep.iShouldNavigateToHomePageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3206105400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "verify message on home page Welcome to Virgin Games",
+        "description": "",
+        "id": "home-pagetest;verify-message-on-home-page-welcome-to-virgin-games",
+        "after": [
+          {
+            "result": {
+              "duration": 742267100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageStep.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173881100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Accept cookies",
+            "match": {
+              "location": "HomePageStep.iClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "i should navigate to Home page successfully",
+            "match": {
+              "location": "HomePageStep.iShouldNavigateToHomePageSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63141900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see message displayed Welcome to Virgin Games",
+            "match": {
+              "location": "HomePageStep.iShouldSeeMessageDisplayedWelcomeToVirginGames()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Home pageTest",
+    "description": "As a user i want to Assert element on HomePage",
+    "id": "home-pagetest",
+    "keyword": "Feature",
+    "uri": "Home.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@HomePage"
+      }
+    ]
+  }
+]
